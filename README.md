@@ -8,7 +8,7 @@ server.exe vpsport 1080
 client:
 
 ```
-client.exe vpsip:vpsport forwardip:forwardport
+client.exe vpsip vpsport forwardip forwardport
 ```
 
 server端访问本地1080，即通过vps被代理到forwardip:forwardport。
